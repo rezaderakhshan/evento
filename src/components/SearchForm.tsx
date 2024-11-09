@@ -1,12 +1,11 @@
 "use client";
 
-import { getEvent } from "@/lib/server-utils";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 const SearchForm = () => {
   const [searchText, setSearchText] = useState("");
-  getEvent("dj-practice-session");
+
   const router = useRouter();
   const handleSubmitForm = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
