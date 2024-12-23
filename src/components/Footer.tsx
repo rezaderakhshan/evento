@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="mt-auto flex h-16 items-center justify-between border-t border-white/10 px-3 text-xs text-white/25 sm:px-9">
       <small className="text-xs">
-        &copy; 2050 ByteGrad. All rights reserved
+        &copy; 2050 ByteGrad. All rights reserved2
       </small>
       <ul className="flex gap-3 sm:gap-8">
         {routes.map((route) => (
